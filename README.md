@@ -4,6 +4,7 @@
 - github : https://github.com/Rexshack-RedM
 
 # Dependancies
+
 - rsg-core
 - ox_lib
 
@@ -12,6 +13,7 @@
 - Additional Information: With this repository it is not necessary to have in server
 
 rsg-sellvendor is a good place to add a way to sell the items, or use them for a way to make items, or cooking.
+this is one example.
 
     -- valentine
     {
@@ -62,9 +64,6 @@ rsg-sellvendor is a good place to add a way to sell the items, or use them for a
             },
         },
     },
-
-- remove to your server.cfg file : rsg-goldpaning
-- remove to your server.cfg file : rsg-goldsmelt
 
 - ensure that the dependancies are added and started
 - add rsg-herbs to your resources folder
