@@ -75,12 +75,9 @@ rsg-sellvendor is a good place to add a way to sell the items, or use them for a
 
 - add the following to your server.cfg file : ensure rsg-herbs
 
-# Mining System
+# Herbs System
 
-- Locations for mining
-- Smelting locations and objects
-- River washing of ores
-- And river panning
+- Locations bushes
 
 # Credits
 
