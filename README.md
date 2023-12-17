@@ -4,6 +4,7 @@
 - github : https://github.com/Rexshack-RedM
 
 # Dependancies
+
 - rsg-core
 
 # Installation
@@ -62,7 +63,6 @@ rsg-sellvendor is a good place to add a way to sell the items, or use them for a
         },
     },
 
-
 - remove to your server.cfg file : rsg-goldpaning
 - remove to your server.cfg file : rsg-goldsmelt
 
@@ -84,3 +84,4 @@ rsg-sellvendor is a good place to add a way to sell the items, or use them for a
 - RexShack
 - andyauk
 - alexandercrews
+- based of redemrp blueberry
