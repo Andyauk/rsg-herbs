@@ -7,7 +7,7 @@ local checkbush = 0
 local bush
 
 local Plantgroup = GetRandomIntInRange(0, 0xffffff)
-print('Plantgroup: ' .. Plantgroup)
+--print('Plantgroup: ' .. Plantgroup)
 
 function CollectHerbs()
     Citizen.CreateThread(
