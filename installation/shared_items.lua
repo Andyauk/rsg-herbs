@@ -1,0 +1,7 @@
+add to shared  items              
+
+['blueberry']       = {['name'] = 'blueberry',  ['label'] = 'Blueberry',   ['weight'] = 125,       ['type'] = 'item',       ['image'] = 'blueberry.png',   ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,		['level'] = 0,		['description'] = 'A blueberry'},
+['stick']           = {['name'] = 'stick',      ['label'] = 'Stick',       ['weight'] = 125,       ['type'] = 'item',       ['image'] = 'stick.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,		['level'] = 0,		['description'] = 'A stick'},
+['sage']            = {['name'] = 'sage',       ['label'] = 'Sage',        ['weight'] = 125,       ['type'] = 'item',       ['image'] = 'sage.png',        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,		['level'] = 0,		['description'] = 'sage'},
+['mint']            = {['name'] = 'mint',       ['label'] = 'Mint',        ['weight'] = 125,       ['type'] = 'item',       ['image'] = 'mint.png',        ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,		['level'] = 0,		['description'] = 'mint'},
+['thyme']           = {['name'] = 'thyme',      ['label'] = 'Thyme',       ['weight'] = 125,       ['type'] = 'item',       ['image'] = 'thyme.png',       ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,		['level'] = 0,		['description'] = 'thyme'},
