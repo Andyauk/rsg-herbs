@@ -42,34 +42,34 @@ AddEventHandler(
         if randomNumber > 0 and randomNumber <= 70 then
             local _subRan = math.random(1, 5)
             if _subRan == 1 then
-                Player.Functions.AddItem('black_currant', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['black_currant'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found a black currant')
+                Player.unctions.AddItem('blueberry', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['blueberry'], "add")
+				TriggerClientEvent('RSGCore:Notify', src, 'you found blueberry')
             elseif _subRan == 2 then
-                Player.Functions.AddItem('mint', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some mint')
+                Player.Functions.AddItem('stick', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['stick'], "add")
+				TriggerClientEvent('RSGCore:Notify', src, 'you found a stick')
             elseif _subRan == 3 then
-                Player.Functions.AddItem('carrot', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['carrot'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found a carrot')
+                Player.Functions.AddItem('sage', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['sage'], "add")
+				TriggerClientEvent('RSGCCore:Notify', src, 'you found some sage')
             elseif _subRan == 4 then
-                Player.Functions.AddItem('american_ginseng', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['american_ginseng'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some american ginseng')
+                Player.Functions.AddItem('mint', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], "add")
+				TriggerClientEvent('RSGCCore:Notify', src, 'you found some mint')
             else
                 TriggerClientEvent('RSGCore:Notify', src, 'you failed to find anything')
             end
         elseif randomNumber > 70 and randomNumber <= 100 then
             local _subRan = math.random(1, 4)
             if _subRan == 1 then
-                Player.Functions.AddItem('mint', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some mint')
+                Player.Functions.AddItem('thyme', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['thyme'], "add")
+				TriggerClientEvent('RSGCore:Notify', src, 'you found some thyme')
             elseif _subRan == 2 then
-                Player.Functions.AddItem('salt', math.random(1, 2))
-                TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['salt'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some salt')
+                Player.Functions.AddItem('mint', math.random(1,2))
+				TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], "add")
+				TriggerClientEvent('RSGCore:Notify', src, 'you found some mint')
             else
                 TriggerClientEvent('RSGCore:Notify', src, 'you failed to find anything')
             end
