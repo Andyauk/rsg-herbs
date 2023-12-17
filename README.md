@@ -4,8 +4,8 @@
 - github : https://github.com/Rexshack-RedM
 
 # Dependancies
-
 - rsg-core
+- ox_lib
 
 # Installation
 

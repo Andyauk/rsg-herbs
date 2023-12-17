@@ -50,34 +50,66 @@ AddEventHandler(
             if _subRan == 1 then
                 Player.unctions.AddItem('blueberry', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['blueberry'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found blueberry')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found blueberry', type = 'success', duration = 5000}
+                )
             elseif _subRan == 2 then
                 Player.Functions.AddItem('stick', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['stick'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found a stick')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found a stick', type = 'success', duration = 5000}
+                )
             elseif _subRan == 3 then
                 Player.Functions.AddItem('sage', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['sage'], 'add')
-                TriggerClientEvent('RSGCCore:Notify', src, 'you found some sage')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found some sage', type = 'success', duration = 5000}
+                )
             elseif _subRan == 4 then
                 Player.Functions.AddItem('mint', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], 'add')
-                TriggerClientEvent('RSGCCore:Notify', src, 'you found some mint')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found some mint', type = 'success', duration = 5000}
+                )
             else
-                TriggerClientEvent('RSGCore:Notify', src, 'you failed to find anything')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Error', description = 'you failed to find anything', type = 'error', duration = 5000}
+                )
             end
         elseif randomNumber > 70 and randomNumber <= 100 then
             local _subRan = math.random(1, 4)
             if _subRan == 1 then
                 Player.Functions.AddItem('thyme', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['thyme'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some thyme')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found some thyme', type = 'success', duration = 5000}
+                )
             elseif _subRan == 2 then
                 Player.Functions.AddItem('mint', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['mint'], 'add')
-                TriggerClientEvent('RSGCore:Notify', src, 'you found some mint')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Success', description = 'you found some mint', type = 'success', duration = 5000}
+                )
             else
-                TriggerClientEvent('RSGCore:Notify', src, 'you failed to find anything')
+                TriggerClientEvent(
+                    'ox_lib:notify',
+                    src,
+                    {title = 'Error', description = 'you failed to find anything', type = 'error', duration = 5000}
+                )
             end
         end
     end
