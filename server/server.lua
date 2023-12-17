@@ -53,7 +53,7 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found blueberry', type = 'success', duration = 5000}
+                    {title = 'Success', description = 'you found a blueberry', type = 'success', duration = 5000}
                 )
             elseif _subRan == 2 then
                 Player.Functions.AddItem('stick', math.random(1, 2))
