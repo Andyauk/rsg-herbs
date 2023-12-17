@@ -48,7 +48,7 @@ AddEventHandler(
         if randomNumber > 0 and randomNumber <= 70 then
             local _subRan = math.random(1, 5)
             if _subRan == 1 then
-                Player.unctions.AddItem('blueberry', math.random(1, 2))
+                Player.Functions.AddItem('blueberry', math.random(1, 2))
                 TriggerClientEvent('inventory:client:ItemBox', src, RSGCore.Shared.Items['blueberry'], 'add')
                 TriggerClientEvent(
                     'ox_lib:notify',
