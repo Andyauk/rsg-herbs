@@ -11,8 +11,7 @@ end
 
 local function CheckVersion()
     PerformHttpRequest(
-        --'https://raw.githubusercontent.com/Rexshack-RedM/rsg-herbs/main/version.txt',
-        'https://raw.githubusercontent.com/Andyauk/rsg-herbs/main/version.txt', --temp update in
+        'https://raw.githubusercontent.com/Andyauk/rsg-herbs/main/version.txt',
         function(err, text, headers)
             local currentVersion = GetResourceMetadata(GetCurrentResourceName(), 'version')
 
