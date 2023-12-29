@@ -53,7 +53,7 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found a blueberry', type = 'success', duration = 5000}
+                    {title = 'you found a blueberry', type = 'success', duration = 5000}
                 )
             elseif _subRan == 2 then
                 Player.Functions.AddItem('stick', math.random(1, 2))
@@ -61,7 +61,7 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found a stick', type = 'success', duration = 5000}
+                    {title = 'you found a stick', type = 'success', duration = 5000}
                 )
             elseif _subRan == 3 then
                 Player.Functions.AddItem('sage', math.random(1, 2))
@@ -69,7 +69,7 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found some sage', type = 'success', duration = 5000}
+                    {title = 'you found some sage', type = 'success', duration = 5000}
                 )
             elseif _subRan == 4 then
                 Player.Functions.AddItem('mint', math.random(1, 2))
@@ -77,13 +77,13 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found some mint', type = 'success', duration = 5000}
+                    {title = 'you found some mint', type = 'success', duration = 5000}
                 )
             else
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Error', description = 'you failed to find anything', type = 'error', duration = 5000}
+                    {title = 'you failed to find anything', type = 'error', duration = 5000}
                 )
             end
         elseif randomNumber > 70 and randomNumber <= 100 then
@@ -94,7 +94,7 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found some thyme', type = 'success', duration = 5000}
+                    {title = 'you found some thyme', type = 'success', duration = 5000}
                 )
             elseif _subRan == 2 then
                 Player.Functions.AddItem('mint', math.random(1, 2))
@@ -102,13 +102,13 @@ AddEventHandler(
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Success', description = 'you found some mint', type = 'success', duration = 5000}
+                    {title = 'you found some mint', type = 'success', duration = 5000}
                 )
             else
                 TriggerClientEvent(
                     'ox_lib:notify',
                     src,
-                    {title = 'Error', description = 'you failed to find anything', type = 'error', duration = 5000}
+                    {title = 'you failed to find anything', type = 'error', duration = 5000}
                 )
             end
         end
