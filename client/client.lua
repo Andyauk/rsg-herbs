@@ -42,7 +42,7 @@ Citizen.CreateThread(
                 bush = GetClosestBush()
                 checkbush = GetGameTimer() + 500
             end
-            if bush then
+            if bush and not IsPedOnMount(playerped) and not IsPedInAnyVehicle(playerped) then
                 if active == false then
                     local PlantgroupName = CreateVarString(10, 'LITERAL_STRING', 'Gather')
                     PromptSetActiveGroupThisFrame(Plantgroup, PlantgroupName)
